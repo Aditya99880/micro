@@ -93,6 +93,7 @@ document.querySelector("#Cloud_pct").innerHTML=response.cloud_pct+"%"
   Submit.addEventListener ("click",(e) => {
     e.preventDefault()
     getweather(City.value)
+	  City.value=""
   })
   getweather("Delhi");
   </script>
